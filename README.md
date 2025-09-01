@@ -22,3 +22,42 @@
 
 ## Scaling
  Then we used the **Standard Scaler** to scale down all the *features* in order to make our `dataset` look clean and easy to process and apply the model.
+
+## Evaluation
+ After applying the KNN Model we got,
+ 
+ Accuracy of *K-Nearest Neighbor Classifier*: **1.0000**
+ 
+ *Classification report* of `KNN Model`:
+               precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        12
+     class_1       1.00      1.00      1.00        14
+     class_2       1.00      1.00      1.00        10
+
+    accuracy                           1.00        36
+   macro avg       1.00      1.00      1.00        36
+weighted avg       1.00      1.00      1.00        36
+
+## Libraries Used
+    We used the python libraries which include numpy, matplotlib, pandas, seaborn and scikit-learn.
+
+## How to Run
+1.  **Clone the repository** (if you haven't already):
+    ```bash
+    git clone [https://github.com/Suchendra13/Wine_KNN.git](https://github.com/Suchendra13/Wine_KNN.git)
+    cd Wine_KNN
+    ```
+2.  **Ensure you have Jupyter Notebook installed** or use a compatible IDE (e.g., VS Code with Jupyter extensions).
+3.  **Install the required Python libraries**:
+    ```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn
+    ```
+4.  **Open the Jupyter Notebook**:
+    ```bash
+    jupyter notebook Wine_KNN.ipynb
+    ```
+5.  **Run all cells** in the notebook.
+   
+## Acknowledgements
+ We have used the standard **scikit-learn library** i.e. `load_wine dataset` for the *educational purposes*.
